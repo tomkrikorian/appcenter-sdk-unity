@@ -1,0 +1,17 @@
+{
+    "name": "NewAssembly",
+    "references": [
+        "ABC",
+        "Unity.PackageManagerUI.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

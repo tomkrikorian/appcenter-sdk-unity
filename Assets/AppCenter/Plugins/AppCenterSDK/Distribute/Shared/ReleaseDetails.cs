@@ -10,7 +10,7 @@ namespace Microsoft.AppCenter.Unity.Distribute
     /// </summary>
     public class ReleaseDetails
     {
-        internal ReleaseDetails()
+        public ReleaseDetails()
         {
         }
 
@@ -24,7 +24,7 @@ namespace Microsoft.AppCenter.Unity.Distribute
         /// Build number or version code.
         /// </summary>
         /// <value>The version.</value>
-        public string Version { get; internal set; }
+        public string Version { get; set; }
 
         /// <summary>
         /// Human readable version.
