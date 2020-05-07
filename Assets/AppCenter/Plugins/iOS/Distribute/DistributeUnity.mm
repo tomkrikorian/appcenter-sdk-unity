@@ -22,7 +22,8 @@ bool appcenter_unity_distribute_is_enabled()
 
 void appcenter_unity_distribute_check_for_update()
 {
-  [MSDistribute checkForUpdate];
+  NSLog(@"12345678999 exit");
+  exit(0);
 }
 
 void appcenter_unity_distribute_set_install_url(char* installUrl)
